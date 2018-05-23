@@ -1,0 +1,26 @@
+Below are the experimental runs for the Winnow Update rule with Linear Threshold function with various activation functions.
+
+Algorithm :- Winnow
+Function  :- Threshold Function
+
+Data      :- Unit Spherical Distribution
+
+a) Activation function = relu
+Total error : 101
+average error : 0.404
+epsilon :  0.2
+Training fail
+
+a) Activation function = tanh
+Total error : 85
+average error : 0.34
+epsilon :  0.2
+Training fail
+
+a) Activation function = threshold
+Total error : 101
+average error : 0.404
+epsilon :  0.2
+Training fail
+
+I suspect that Winnow cannot PAC Learn on Linear Threshold Function from the above failed results

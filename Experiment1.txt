@@ -1,0 +1,80 @@
+The list of following experiments were carried out to test out the various combinations of functions, data and activation functions for the Linear Perceptron Rule:-
+
+1)
+Algorithm :- Linear Perceptron rule
+Function  :- Nested Boolean Function
+
+Data      :- Boolean Distribution
+
+	a) Activation Function = relu
+	   Total error : 6
+	   average error : 0.024
+	   epsilon :  0.2
+       Training success
+    b) Activation Function = tanh
+        Total error : 153
+		average error : 0.612
+		epsilon :  0.2
+		Training fail
+
+		When increased num_train to 800
+
+			Total error : 0
+			average error : 0.0
+			epsilon :  0.2
+			Training success
+	c) Activation Function = threshold
+		Total error : 47
+		average error : 0.188
+		epsilon :  0.2
+		Training success
+
+
+2)
+Algorithm :- Linear Perceptron rule
+Function  :- Threshold function
+
+Data      :- Boolean Distribution
+
+	a) Activation Function = relu
+	Total error : 0
+	average error : 0.0
+	epsilon :  0.2
+	Training success
+
+	b) Activation Function = tanh
+	Total error : 0
+	average error : 0.0
+	epsilon :  0.2
+	Training success
+
+	c) Activation Function = threshold
+	Total error : 66
+	average error : 0.264
+	epsilon :  0.2
+	Training fail
+
+	#Linear Perceptron cannot PAC learn under threshold in uniform boolean distribution
+
+
+Data      :- Unit Spherical Distribution
+
+	a) Activation Function = relu
+	Total error : 48
+	average error : 0.192
+	epsilon :  0.2
+	Training success
+	
+	b) Activation Function = tanh
+	Total error : 18
+	average error : 0.072
+	epsilon :  0.2
+	Training success
+
+	c) Activation Function = threshold
+	Total error : 20
+	average error : 0.08
+	epsilon :  0.2
+	Training success
+
+
